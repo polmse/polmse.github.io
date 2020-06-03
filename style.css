@@ -1,0 +1,75 @@
+body{
+  line-height: 1.5;
+}
+ul {
+  list-style-type: square;
+}
+.container{
+  position: relative;
+  }
+header {
+font-family: 'Abril Fatface';
+color: #222;
+margin-bottom: 60px;  
+}
+h1{
+  position: absolute;
+  text-align: center;
+  top: 67%;
+  left: 23%;
+  font-size: 350%;
+  line-height: 0;
+  }
+h3{
+  position: absolute;
+  text-align: center;
+  top: 52%;
+  left:23%;
+  font-size: 180%;
+  }
+h4{
+  font-family: 'Merriweather',       serif;
+  
+}
+h2 {
+  line-height: 1.2; 
+}
+
+section{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  margin-left: 20%;
+  margin-right: 20%;
+  }
+.wrapper {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 3px;
+  background: grey;
+  padding: 0px;
+  border: 0px;
+  font-family: 'Abril Fatface';
+  color: white;
+  font-size: 250%;  
+  line-height: 1.5;
+}
+blockquote {
+  position: relative;
+  background: grey;
+  padding: 2px;
+  }
+blockquote::before {
+  content: "“";
+  position: absolute;
+  left: -43px;
+  top: -32px;
+  font-size: 100px;
+}
+.Uppercase {
+  text-transform: uppercase;  
+  line-height: 2.5;
+  }
+#line {
+  border-bottom: 3px solid black;
+  
+}
